@@ -1,4 +1,6 @@
-[gd_scene format=3 uid="uid://bap2f124d4rq6"]
+[gd_scene load_steps=2 format=3 uid="uid://bap2f124d4rq6"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_uchyk"]
 
 [node name="Control" type="Control"]
 layout_mode = 3
@@ -7,3 +9,22 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+
+[node name="Button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 470.0
+offset_top = 494.0
+offset_right = 654.0
+offset_bottom = 525.0
+text = "start!!"
+
+[node name="Label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 317.0
+offset_top = 137.0
+offset_right = 820.0
+offset_bottom = 353.0
+text = "welkom naar Spetterkak"
+label_settings = SubResource("LabelSettings_uchyk")
+horizontal_alignment = 1
+vertical_alignment = 1
